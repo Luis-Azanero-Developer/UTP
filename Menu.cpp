@@ -4,16 +4,13 @@
 #include "Ejercicio02.h"
 #include "Ejercicio03.h"
 using namespace std;
-
 int main()
 {
     /*Iniciamos declando las variables*/
-
     int opcion;
     bool repetir = true, rpta = false;
-    
+    /* Para do while controlar la mejor sentencia*/
     do {
-
         do{
             /*Mostramos las opciones que tiene el usuario*/
             printf("\n\n\t\t\tMenu de Opciones\n");
@@ -22,24 +19,17 @@ int main()
             printf("\t2. Ejercicio02 \n");
             printf("\t3. Ejercicio03 \n");
             printf("\t0. Salir \n\n");
-
             /*Damos opcion a elejir una opción*/
-
             printf("\tIngrese una opcion: ");
             scanf("%d", &opcion);
-            
             /*Vamos que haya ingresado una de las opciones validas*/
-
             if(opcion<0 || opcion>3)
                 printf("\n\tMsg: Ingrese una opcion valida!");
             else
                 rpta=true;            
-
         }while(rpta==false);
-
         /* creamos el switch posee una estructura condicional múltiple, switch , que ejecuta un bloque de sentencias
-         si una variable o expresión entera coincide con alguno de los valores proporcionados en una lista*/
-
+         si una variable o expresión entera coincide con alguno de los valores proporcionados en una lista */
         switch (opcion) {
             case 1:
                 Ejercicio01 objE1;

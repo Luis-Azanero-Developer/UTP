@@ -1,3 +1,10 @@
+/*1. Diseñar un programa que permita aceptar los (n) elementos en un array (A)
+de componentes enteros y positivos y que permita localizar al tiempo que
+se introducen los elementos del array, los números primos que figuran en
+el, mostrando su valor y la posición que ocupan cada uno en el array.
+Deberán disponerse todos los filtros necesarios para que no se produzcan
+errores.
+*/
 #include <stdio.h>
 using namespace std;
 
@@ -16,6 +23,7 @@ class Ejercicio01{
 
         void solucionEjercicio01(){
             /*Declaramos las variables*/
+
             int nelementos, xvalor;
             bool valida; 
 
@@ -23,8 +31,10 @@ class Ejercicio01{
 
             printf("\n\n\t\t\tPrograma: Ejercicio01 \n");
             printf("\t\t\t--------------------- \n\n");
+          
             /*Creamos un do-while Este ciclo se presenta en algunas circunstancias en las que se ha de tener
              la seguridad de que una determinada acción se ejecutara una o más veces, pero al menos una vez.*/
+
 
             do{
                 valida = true;

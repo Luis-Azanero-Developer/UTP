@@ -1,5 +1,13 @@
 #include <stdio.h>
+/*
+1. Diseñar un programa que permita aceptar los (n) elementos en un array (A)
+de componentes enteros y positivos y que permita localizar al tiempo que
+se introducen los elementos del array, los números primos que figuran en
+el, mostrando su valor y la posición que ocupan cada uno en el array.
+Deberán disponerse todos los filtros necesarios para que no se produzcan
+errores.
 
+*/
 int main() 
 {
 	int nelementos, xvalor;

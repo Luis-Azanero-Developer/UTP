@@ -1,3 +1,13 @@
+/*
+Desarrollar un aplicativo que permita, dado un array V de (n) elementos
+positivos, que pueda tener algunos de ellos repetidos, reemplazar cada
+elemento repetido por (-1) e indique la cantidad de modificaciones hechas.
+Tener en cuenta los filtros necesarios para que no se produzcan errores.
+Ejemplo:
+V = (6, 7, 6, 7, 0); quedando tras la lectura como (6, 7, -1, -1, 0); número de
+modificaciones realizadas en el proceso c = 2
+
+*/
 #include <stdio.h>
 using namespace std;
 class Ejercicio03{

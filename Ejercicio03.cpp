@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
 {
-
     printf("\n\n\t\t\tPrograma: Ejercicio03 \n");
     printf("\t\t\t--------------------- \n\n");
     int elemento, count;
@@ -14,10 +13,8 @@ int main()
         else
             printf("Debe ingresar un valor mayor a 0");
     } while (rpta==false);
-    
     rpta=false;
     int iVectorIn[count], iVectorOut[count];
-    
     for(int i=0; i<count;i++){
         do{
             rpta=false;
@@ -40,13 +37,10 @@ int main()
             iVectorOut[i] = elemento;
         iVectorIn[i] = elemento;
     }
-
     printf("\n\tResultados : \n\n");
-
     for(int i=0; i<count; i++){
         printf("\tElemento => %d => %d \n", iVectorIn[i], iVectorOut[i]);
     }
-
     printf("\n");
 
 }
